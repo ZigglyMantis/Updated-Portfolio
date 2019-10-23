@@ -117,6 +117,10 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
+/* bottom-text */
+#bottom-text{
+  text-align: center;
+}
 /* main */
 
 #main-container {
