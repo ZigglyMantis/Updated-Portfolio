@@ -25,30 +25,31 @@
       <h1>Portfolio</h1>
 
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+        <img id="work1" src="assets/images/projectsc.png" href="https://zigglymantis.github.io/group2-project1/" alt="A Getaway">
 
-        <h3>Word Guess</h3>
+        <h3>A Getaway</h3>
       </div>
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+        <img id="work2" src="assets/images/PsychicGame.png" href="https://zigglymantis.github.io/Psychic-Game/" alt="Psychic Game">
 
-        <h3>RPG Game</h3>
+        <h3>Psychic Game</h3>
       </div>
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+        <img id="work3" src="assets/images/Trivia Game.png" href="https://zigglymantis.github.io/TriviaGame/" alt="Trivia Game">
 
         <h3>Trivia Game</h3>
       </div>
       <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+        <img id="work4" src="assets/images/Crystal Collector.png" href="https://zigglymantis.github.io/unit-4-game/" alt="Crystal Collector">
 
-        <h3>Rutgers Info Widget</h3>
+        <h3>Crystal Collector</h3>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+      <!--commented out for later use-->
+      <!-- <div class="work">
+        <img src="" alt="">
 
-        <h3>Rock Paper Scissors</h3>
-      </div>
+        <h3></h3>
+      </div> -->
 
     </section>
 
@@ -59,6 +60,25 @@
       Copyright &copy;
     </div>
   </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+$("#work1").on("click", function(){
+    URL1 = "https://zigglymantis.github.io/group2-project1/"
+    window.open(URL1)
+});
+$("#work2").on("click", function(){
+    URL2 = "https://zigglymantis.github.io/Psychic-Game/"
+    window.open(URL2)
+});
+$("#work3").on("click", function(){
+    URL3 = "https://zigglymantis.github.io/TriviaGame/"
+    window.open(URL3)
+});
+$("#work4").on("click", function(){
+    URL4 = "https://zigglymantis.github.io/unit-4-game/"
+    window.open(URL4)
+});
+</script>
 </body>
 
 </html>

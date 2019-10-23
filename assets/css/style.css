@@ -272,7 +272,7 @@ input[type=submit] {
   /* header */
   
   #masthead {
-    position: fixed;
+    position: absolute;
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
@@ -318,6 +318,7 @@ input[type=submit] {
   /* footer */
   
   footer {
+    width: 100%;
     padding: 30px 0;
     clear: both;
     font-size: 12px;
@@ -673,7 +674,7 @@ input[type=submit] {
   /* general */
   
   .container {
-    width: 100%;
+    width: 80%;
     max-width: 640px;
     margin: 0 auto;
     clear: both;
@@ -715,7 +716,7 @@ input[type=submit] {
   #masthead {
     position: static;
     z-index: 99;
-    width: 100%;
+    width: 80%;
     margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
@@ -771,6 +772,7 @@ input[type=submit] {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    width: 80%;
   }
   
   h3, h2 {
